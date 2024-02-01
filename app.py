@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv
 
 import tensorflow as tf
 import cv2
@@ -19,7 +19,7 @@ st.set_page_config(
 
 @st.cache_resource()
 def load_model():
-    model = tf.keras.models.load_model('models/redeepfake_model_v3.h5')
+    model = tf.keras.models.load_model('models/model.h5')
     return model
 
 def preprocess_image(image):
@@ -41,8 +41,9 @@ def main():
         st.caption('Made with ❤️ by [DataFlow](https://dataflow.kz) team.')
     
     if img_uploaded is not None:
-        image = cv2.imdecode(np.frombuffer(img_uploaded.read(), dtype=np.uint8), 1)
-        face_locations = face_recognition.face_locations(image)
+        with st.spinner('Processing the image, getting faces...'):
+            image = cv2.imdecode(np.frombuffer(img_uploaded.read(), dtype=np.uint8), 1)
+            face_locations = face_recognition.face_locations(image)
         if len(face_locations) == 0:
             st.warning('Faces not found!')
         for i, face_location in enumerate(face_locations):
@@ -59,9 +60,9 @@ def main():
                 st.image(cv2.cvtColor(face_image, cv2.COLOR_BGR2RGB), caption=f"Face {i+1}: {predicted_class} | Score: {prediction[0, 0]:.2f}", width=350)
 
                 if predicted_class == "FAKE":
-                    st.warning('The image is most likely fake!', width=350)
+                    st.warning('The image is most likely fake!')
                 else:
-                    st.success('The image is most likely real!', width=350)
+                    st.success('The image is most likely real!')
                 
 
 if __name__ == "__main__":
