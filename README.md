@@ -25,6 +25,8 @@
 
 **Key Parthner:** `Microsoft Imagine Cup 2024`
 
+**Kaggle Notebook:** https://www.kaggle.com/code/armanzhalgasbayev/deepfake-detection-efficientnetb4-tf-cnn
+
 **Research Paper:** will be here very soon..
 
 ## Description
@@ -38,6 +40,9 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 ![ReDeepFake - ReDeepFake Model Architecture](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/df7e1ba4-2da7-4b78-bde2-c031ba52e173)
 
 - **Training Data:** Pre-processed dataset of 224x224 resized real/fake image from DFDC competition was used for training our `ReDeepFake` model.
+  - Dataset of 32,000 face images:
+    - Real: 16,000;
+    - Fake: 16,000;
 ![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/f50b2107-78fd-4458-9c4d-8f23fc9056d0)
 
 - **Performance Metrics:** Evaluated based on `Accuracy` and `F1-score`.
@@ -61,6 +66,18 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 - **Try using our demo:** https://huggingface.co/spaces/dataflow/redeepfake-demo
 
 ![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/3dd74781-9d0b-42fd-ab6e-eb3ce2063769)
+
+## Model Performance
+
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/41828903-faa5-4b37-b9bf-e0dbee3a2111)
+
+* **Test Loss:** `0.3455`
+
+* **Test Accuracy:** `0.8395`
+
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/41b239da-3a0c-451e-9591-368c03e4216b)
+
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/0de39a30-6a19-45db-bb86-e8865a37cb3d)
 
 
 ## Usage
