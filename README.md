@@ -58,6 +58,10 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 
 - **Generation of Deepfake images based on ONNX & PyTorch:** https://gist.github.com/silvermete0r/e24f35df5b9a62f03a7e73d1f3d448c3
 
+- **Try using our demo:** https://huggingface.co/spaces/dataflow/redeepfake-demo
+
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/3dd74781-9d0b-42fd-ab6e-eb3ce2063769)
+
 
 ## Usage
 
