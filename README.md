@@ -127,6 +127,17 @@ prediction = redeepfake_model.predict(image)
 
 3. Deepfakes made by using 3D image processing technologies and manually modified images by the authors cannot be recognized correctly by the model.
 
+## Ethics
+
+1. **Informed Consent:**
+   - Ensure that individuals involved in the data used for training and testing the model have given informed consent for their images to be used. Respect privacy and obtain explicit permission when necessary.
+
+2. **Responsible Disclosure:**
+   - If the model identifies potential deepfake content related to an individual, exercise responsible disclosure. Notify the concerned parties or relevant authorities in a timely and responsible manner, allowing them to address the situation appropriately.
+
+3. **Avoid Unlawful Use:**
+   - Do not use the ReDeepFake model for any activities that violate laws, regulations, or ethical standards. Prohibit the use of the model for malicious purposes, such as generating harmful deepfake content or engaging in activities that infringe on privacy rights.
+
 **License**
 
 This model is provided under the [LICENSE](LICENSE) file. Please review the terms and conditions before usage.
