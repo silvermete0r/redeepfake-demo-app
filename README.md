@@ -91,6 +91,18 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 * tensorflow==2.15.0.post1
 * streamlit<=1.23.1 (Optional - for demo)
 
+### Areas of Usage
+
+1. **Media Integrity Verification:**
+   - Verify the authenticity of images and videos in the media industry to ensure integrity and trustworthiness.
+
+2. **Social Media Content Moderation:**
+   - Enhance content moderation on social media platforms by detecting and preventing the spread of deepfake content.
+
+3. **Security and Surveillance:**
+   - Strengthen security and surveillance systems by identifying manipulated visuals that could compromise the accuracy of facial recognition and surveillance technologies.
+   
+
 ### Loading the Model
 
 ```python
