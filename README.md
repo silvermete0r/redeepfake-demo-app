@@ -9,9 +9,11 @@
 [![GitHub license](https://img.shields.io/github/license/silvermete0r/redeepfake-demo-app.svg?style=flat&logo=github&colorB=green)](https://github.com/silvermete0r/redeepfake-demo-app/blob/master/LICENSE)
 ![Static Badge](https://img.shields.io/badge/Powered%20by-Dataflow-lime?style=plastic)
 
+*Before using this app download the model via link [HuggingFace](https://huggingface.co/dataflow/redeepfake)*
+
 ## Overview
 
-**Model Name:** `ReDeepFake`
+**Model Name:** `ReDeepFake` 
 
 **Task:** Advanced Deepfake detection model for 2D flat images.
 
