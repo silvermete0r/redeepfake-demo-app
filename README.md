@@ -21,7 +21,7 @@
 
 **Framework:** `TensorFlow`
 
-**Current Version:** V1.3
+**Current Version:** V1.4
 
 **Key Study:** [Deepfake Detection Challenge (DFDC)](https://www.kaggle.com/competitions/deepfake-detection-challenge) (in 2019-2020, by Meta, AWS, Microsoft and AI’s Media Integrity Steering Committee).
 
