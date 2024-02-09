@@ -31,6 +31,8 @@
 
 **Research Paper:** will be here very soon..
 
+**ReDeepFake for video Processing:** [video_process.py](https://github.com/silvermete0r/redeepfake-demo-app/blob/master/video_process.py)
+
 ## Description
 
 ReDeepFake is a deep learning model designed for the purpose of detecting deepfake content within 2D flat images. Leveraging EfficientNetB4 advanced CNN architecture, the model is trained to discern subtle patterns indicative of deepfake manipulation.
