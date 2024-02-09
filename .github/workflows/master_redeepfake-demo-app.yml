@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'redeepfake-demo-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D1126C71D1F44E728E20DE47617CE001 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C247018C0CD5438E9221F900D4AB0E1C }}
