@@ -20,7 +20,7 @@ st.set_page_config(
 
 @st.cache_resource()
 def load_model():
-    model = tf.keras.models.load_model('models/model.h5')
+    model = tf.keras.models.load_model('.models/model.h5')
     return model
 
 
@@ -72,7 +72,7 @@ def main():
 
             3. Deepfakes made by using 3D image processing technologies and manually modified images by the authors cannot be recognized correctly by the model.
         ''')
-        
+
     if img_uploaded is not None:
         with st.spinner('Processing the image, getting faces...'):
             image = cv2.imdecode(np.frombuffer(
