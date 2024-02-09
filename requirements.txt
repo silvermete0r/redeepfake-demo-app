@@ -1,6 +1,6 @@
 face_recognition<=1.3.0
 numpy<=1.23.5
-opencv_python<=4.7.0.72
+opencv-python-headless<=4.9.0.80
 pandas<=2.0.2
 streamlit<=1.23.1
 tensorflow==2.15.0.post1
