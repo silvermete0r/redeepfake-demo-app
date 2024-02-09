@@ -4,3 +4,5 @@ opencv-python-headless==4.9.0.80
 pandas==2.0.2
 streamlit==1.23.1
 tensorflow==2.15.0.post1
+CMake==3.22.2
+dlib==19.18.0
