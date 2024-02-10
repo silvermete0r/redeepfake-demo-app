@@ -116,7 +116,16 @@ import tensorflow as tf
 redeepfake_model = tf.keras.models.load_model('redeepfake_model.h5')
 ```
 
-## Making Predictions
+### Preprocessing the Input Image
+```python
+def preprocess_image(image_path):
+    img = cv2.imread(image_path)
+    img = cv2.resize(img, (224, 224))
+    img = tf.keras.applications.efficientnet.preprocess_input(img)
+    return img
+```
+
+### Making Predictions
 
 ```python
 # 'image' -> preprocessed input image data
