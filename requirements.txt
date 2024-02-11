@@ -1,5 +1,5 @@
-CMake==3.22.2
-dlib==19.18.0
+CMake
+dlib
 numpy==1.23.5
 pandas==2.0.2
 opencv-python-headless==4.9.0.80
