@@ -1,8 +1,8 @@
 CMake
 dlib
-numpy==1.23.5
-pandas==2.0.2
+numpy<=1.23.5
+pandas<=2.0.2
 opencv-python-headless<=4.0.1.24
-face-recognition<=1.3.0
-streamlit==1.23.1
-tensorflow==2.15.0.post1
+face_recognition<=1.3.0
+streamlit<=1.23.1
+tensorflow<=2.15.0.post1
