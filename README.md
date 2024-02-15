@@ -29,7 +29,7 @@
 
 **Kaggle Notebook:** https://www.kaggle.com/code/armanzhalgasbayev/deepfake-detection-efficientnetb4-tf-cnn
 
-**Research Paper:** https://www.researchgate.net/publication/341903582_Deepfake_Video_Detection_Using_Convolutional_Neural_Network
+**Research Paper:** [ResearchGate Paper](https://www.researchgate.net/publication/378157870_Using_the_CNN_architecture_based_on_the_EfficientNetB4_model_to_efficiently_detect_Deepfake_images)
 
 **ReDeepFake for video Processing:** [video_process.py](https://github.com/silvermete0r/redeepfake-demo-app/blob/master/video_process.py)
 
