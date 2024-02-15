@@ -45,7 +45,7 @@ def main():
             'ReDeepFake is an advanced Deepfake detection model for 2D flat images.')
         st.caption('Made with ❤️ by [DataFlow](https://dataflow.kz) team.')
 
-    st.title('🧑 ReDeepFake v1.4')
+    st.title('🧑 ReDeepFake v1.3')
     st.markdown('''
         This is a demo app for ReDeepFake model - Advanced Deepfake detection model for 2D flat images.
     ''')
