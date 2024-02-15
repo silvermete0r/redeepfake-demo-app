@@ -21,7 +21,7 @@
 
 **Framework:** `TensorFlow`
 
-**Current Version:** V1.4
+**Current Version:** V1.3
 
 **Key Study:** [Deepfake Detection Challenge (DFDC)](https://www.kaggle.com/competitions/deepfake-detection-challenge) (in 2019-2020, by Meta, AWS, Microsoft and AI’s Media Integrity Steering Committee).
 
@@ -29,7 +29,7 @@
 
 **Kaggle Notebook:** https://www.kaggle.com/code/armanzhalgasbayev/deepfake-detection-efficientnetb4-tf-cnn
 
-**Research Paper:** will be here very soon..
+**Research Paper:** https://www.researchgate.net/publication/341903582_Deepfake_Video_Detection_Using_Convolutional_Neural_Network
 
 **ReDeepFake for video Processing:** [video_process.py](https://github.com/silvermete0r/redeepfake-demo-app/blob/master/video_process.py)
 
@@ -63,7 +63,7 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 
 - **Deepfake Detection Challenge:** [Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge)
 
-- **Final Trained Model Link:** [ReDeepFake v1.4](https://www.kaggle.com/models/armanzhalgasbayev/redeepfake)
+- **Final Trained Model Link:** [ReDeepFake v1.3](https://github.com/silvermete0r/redeepfake-demo-app/blob/master/.models/model.h5)
 
 - **Generation of Deepfake images based on ONNX & PyTorch:** https://gist.github.com/silvermete0r/e24f35df5b9a62f03a7e73d1f3d448c3
 
@@ -73,15 +73,19 @@ ReDeepFake is a deep learning model designed for the purpose of detecting deepfa
 
 ## Model Performance
 
-![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/41828903-faa5-4b37-b9bf-e0dbee3a2111)
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/adefa62a-fc3a-48d2-a141-9d04e8607240)
 
-* **Test Loss:** `0.3455`
+* **Test Loss:** `0.4872`
 
-* **Test Accuracy:** `0.8395`
+* **Test Accuracy:** `0.9022`
 
-![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/41b239da-3a0c-451e-9591-368c03e4216b)
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/69a305bb-b5d6-42e4-be94-39cecb9d05c3)
 
-![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/0de39a30-6a19-45db-bb86-e8865a37cb3d)
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/db22e81d-d0f0-4722-a40f-d763aaeb8ff3)
+
+* **Test on random set of 20 images:** 
+
+![image](https://github.com/silvermete0r/redeepfake-demo-app/assets/108217670/bfc7112e-2a60-4e8d-bd9b-d3a39bea837c)
 
 
 ## Usage
