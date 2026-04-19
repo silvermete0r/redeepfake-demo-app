@@ -15,7 +15,7 @@
 
 **Model Name:** `ReDeepFake` 
 
-**Task:** Advanced Deepfake detection model for 2D flat images.
+**Task:** Deepfake detection model for 2D flat images.
 
 **Model Type:** Convolutional Neural Network (CNN) -> [EfficientNetB4](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet) Model Architecture based.
 
@@ -143,6 +143,8 @@ prediction = redeepfake_model.predict(image)
 2. It may not be fully robust against emerging deepfake generation techniques: Modern image generation methods use advanced descriptors to assess the quality of the image's realism, so photos of such faces are difficult to distinguish from real people. 
 
 3. Deepfakes made by using 3D image processing technologies and manually modified images by the authors cannot be recognized correctly by the model.
+
+4. It is also possible that, due to the highly similar distribution of images in the training and test sets - arising from their extraction from the same video streams - the model may exhibit some degree of overfitting (consequently, the model may generalize poorly to new, unseen images).
 
 ## Ethics
 
